@@ -53,8 +53,8 @@ function App() {
     <div className="App">
       <h1>User Management</h1>
       <hr></hr>
-      <UserList users={users} setEditingUser={setEditingUser} setDeletingUser={setDeletingUser} />
-      <AddUser handleAddUser={handleAddUser} />
+      <UserList className="user-list" users={users} setEditingUser={setEditingUser} setDeletingUser={setDeletingUser} />
+      <AddUser className="add-user-form" handleAddUser={handleAddUser} />
       {editingUser && <EditUser user={editingUser} handleEditUser={handleEditUser} setEditingUser={setEditingUser} />}
       {deletingUser && <DeleteUser user={deletingUser} handleDeleteUser={handleDeleteUser} setDeletingUser={setDeletingUser} />}
     </div>

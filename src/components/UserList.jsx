@@ -1,11 +1,12 @@
 import React from "react";
+import "../styles/App.css"
 
 
 
 const UserList = ({ users, setEditingUser, setDeletingUser }) => {
   return (
-    <div>
-      <h2>User List</h2>
+    <div className="user-list-container">
+      <h2  className="table table-bordered">User List</h2>
       <table className="table table-bordered">
         <thead>
           <tr>

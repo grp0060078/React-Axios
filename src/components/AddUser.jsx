@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "../styles/App.css"
 
 const AddUser = ({ handleAddUser }) => {
   const [user, setUser] = useState({ name: "", email: "" });
@@ -10,8 +11,8 @@ const AddUser = ({ handleAddUser }) => {
   };
 
   return (
-    <div>
-      <h2>Add User</h2>
+    <div className="add-user-container">
+      <h2 className="add-user-header">Add User</h2>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
           <input

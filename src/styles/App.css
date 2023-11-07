@@ -1,15 +1,222 @@
-.App{
-    
+/* App.css */
+
+/* Style for the main container */
+.App {
     text-align: center;
-    
-}
-form{
-    display: inline-block;
-    text-align: center;
-    width: 300px;
-}
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  /* Style for the page title */
+  h1 {
+    color: #007bff;
+  }
+  
+  /* Style for the horizontal line */
+  hr {
+    border-color: #007bff;
+  }
+  
+  /* Style for the user list */
+  .user-list {
+    margin-top: 20px;
+  }
+  
+  /* Style for the add user form */
+  .add-user-form {
+    margin-top: 20px;
+  }
+  
+  /* Style for the edit and delete user components */
+  .edit-delete-user {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
 
   
+
+  /* App.css */
+
+/* Style for the add user container */
+.add-user-container {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
   
+  /* Style for the add user header */
+  .add-user-header {
+    font-size: 24px;
+    color: #007bff;
+  }
   
+  /* Style for the form elements */
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the input fields */
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style for the submit button */
+  .btn-success {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  
+
+  /* App.css */
+
+/* Style for the delete user container */
+.delete-user-container {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Style for the delete user header */
+  .delete-user-header {
+    font-size: 24px;
+    color: #dc3545; /* Red color for the header */
+  }
+  
+  /* Style for the confirmation message */
+  .confirmation-message {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  /* Style for the "Yes" button */
+  .btn-danger {
+    background-color: #dc3545; /* Red background color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px; /* Add some spacing between buttons */
+  }
+  
+  /* Style for the "No" button */
+  .btn-secondary {
+    background-color: #6c757d; /* Gray background color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  
+
+  /* App.css */
+
+/* Style for the edit user container */
+.edit-user-container {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Style for the edit user header */
+  .edit-user-header {
+    font-size: 24px;
+    color: #007bff; /* Blue color for the header */
+  }
+  
+  /* Style for the form elements */
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the input fields */
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style for the "Save" button */
+  .btn-primary {
+    background-color: #007bff; /* Blue background color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px; /* Add some spacing between buttons */
+  }
+  
+  /* Style for the "Cancel" button */
+  .btn-secondary {
+    background-color: #6c757d; /* Gray background color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+
+  /* App.css */
+
+/* Style for the user list container */
+.user-list-container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Style for the user list header */
+  .table-bordered {
+    font-size: 24px;
+    color: #007bff; /* Blue color for the header */
+  }
+  
+  /* Style for the table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+  }
+  
+  /* Style for the table headers */
+  th {
+    background-color: #007bff; /* Blue background color for headers */
+    color: white;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /* Style for the table data rows */
+  tr {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* Style for the table data cells */
+  td {
+    padding: 10px;
+  }
+  
+  /* Style for the "Edit" and "Delete" buttons */
+  .btn-sm {
+    margin-right: 5px;
+  }
   

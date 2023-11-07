@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 
+import "../styles/App.css"
+
 const EditUser = ({ user, handleEditUser, setEditingUser }) => {
   const [editedUser, setEditedUser] = useState(user);
 
@@ -14,8 +16,8 @@ const EditUser = ({ user, handleEditUser, setEditingUser }) => {
   };
 
   return (
-    <div>
-      <h2>Edit User</h2>
+    <div className="edit-user-container">
+      <h2 className="edit-user-header">Edit User</h2>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
           <input
